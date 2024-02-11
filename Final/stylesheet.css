@@ -1,0 +1,117 @@
+@font-face {
+    font-family: "Karla";
+    src: url('./fonts/Karla-VariableFont_wght.ttf') format('truetype');
+}
+
+html {
+	font-family: "Karla";
+	src: url(./fonts/Karla-VariableFont_wght.ttf);
+	margin: 0;
+	font-size: 16px;
+}
+
+body {
+	margin:0;
+}
+a {
+	text-decoration: none;
+	color: #000;
+}
+
+#navbar {
+	display: flex;
+	flex-direction: row;
+	gap: 2rem;
+	justify-content: flex-start;
+	padding: 2rem 3rem;
+	font-size: 1.5rem;
+	text-align: center;
+	text-decoration: none;
+	color: #373939;
+	/* box-shadow: 0px 2px 5px #757575; */
+}
+
+#navbar a:hover {
+	color: #ff39bb;
+
+	transition: 0.3s ease-in-out;
+}
+
+.active {
+	color: #ff39bb;
+}
+
+#navbar img {
+	height: 50px;
+	width: auto;
+	margin-top: 13px;
+		
+}
+
+/* Works page */
+
+.work-body {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding: 10rem 17rem;
+	gap: 7rem;
+}
+
+.work-item {
+	display: flex;
+	flex-direction: row;
+	gap: 5rem;
+	align-items: center;
+}
+
+.item-image {
+	height: 30rem;
+}
+
+.item-title {
+	font-size: 3rem;
+}
+.item-description {
+	font-size: 1.3rem;
+}
+
+.item-image:hover {
+	transform: scale(1.1);
+	transition: 0.3s ease-in-out;
+}
+
+/* About page */
+.more-center {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-content: center;
+	padding: 5rem 45rem;
+	gap: 10rem;
+}
+
+.contact-button {
+	padding: 1rem 1.5rem;
+	border: 2px solid rgba(0, 0, 0, 0.1);
+	border-radius: 0.5rem;
+	font-weight: 600;
+	font-size: 1.1rem;
+}
+
+.contact-button:hover {
+	border: 2px solid rgba(0,0,0,0.5);
+	transition: 0.3s ease-in-out;
+}
+
+.contactbuttons {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-content: center;
+	gap: 1rem;
+}
+
+.project-summary {
+	margin-left: 1rem;
+}
